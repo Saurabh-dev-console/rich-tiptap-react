@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 291 84% 61%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -26,30 +26,25 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 333 71% 51%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 291 84% 61%;
+    --ring: 221 83% 53%;
 
-    --radius: 0.75rem;
-
-    /* Gradient tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(333, 71%, 85%) 0%, hsl(291, 84%, 85%) 50%, hsl(221, 83%, 88%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0, 0%, 100%) 0%, hsl(291, 84%, 98%) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(333, 71%, 51%) 0%, hsl(291, 84%, 61%) 100%);
+    --radius: 0.5rem;
 
     /* Editor specific tokens */
     --editor-background: 0 0% 100%;
-    --editor-border: 291 84% 90%;
-    --editor-toolbar: 291 84% 98%;
-    --editor-button-hover: 291 84% 95%;
-    --editor-button-active: 291 84% 61%;
-    --editor-focus: 291 84% 61%;
+    --editor-border: 220 13% 91%;
+    --editor-toolbar: 210 40% 98%;
+    --editor-button-hover: 210 40% 96.1%;
+    --editor-button-active: 221 83% 53%;
+    --editor-focus: 221 83% 53%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -78,7 +73,7 @@ All colors MUST be HSL.
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 291 84% 71%;
+    --primary: 217.2 91.2% 59.8%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -87,7 +82,7 @@ All colors MUST be HSL.
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 333 71% 61%;
+    --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
@@ -95,20 +90,15 @@ All colors MUST be HSL.
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 291 84% 71%;
-
-    /* Gradient tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(333, 71%, 25%) 0%, hsl(291, 84%, 20%) 50%, hsl(221, 83%, 18%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(222.2, 84%, 8%) 0%, hsl(291, 84%, 10%) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(333, 71%, 61%) 0%, hsl(291, 84%, 71%) 100%);
+    --ring: 217.2 91.2% 59.8%;
 
     /* Editor specific tokens */
     --editor-background: 217.2 32.6% 17.5%;
     --editor-border: 217.2 32.6% 20%;
     --editor-toolbar: 222.2 84% 4.9%;
     --editor-button-hover: 217.2 32.6% 20%;
-    --editor-button-active: 291 84% 71%;
-    --editor-focus: 291 84% 71%;
+    --editor-button-active: 217.2 91.2% 59.8%;
+    --editor-focus: 217.2 91.2% 59.8%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -127,18 +117,6 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-  }
-
-  .bg-gradient-hero {
-    background: var(--gradient-hero);
-  }
-
-  .bg-gradient-card {
-    background: var(--gradient-card);
-  }
-
-  .bg-gradient-accent {
-    background: var(--gradient-accent);
   }
 }
 
